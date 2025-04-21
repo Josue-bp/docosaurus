@@ -2,46 +2,43 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introducción: ¿Qué es "Inspeccionar"?
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Vamos a descubrir cómo usar la herramienta **"Inspeccionar" del navegador** (DevTools) en menos de 5 minutos.
 
-## Getting Started
+## ¿Qué es "Inspeccionar"?
 
-Get started by **creating a new site**.
+Cuando das clic derecho sobre cualquier parte de una página web en **Google Chrome**, verás una opción llamada **"Inspeccionar"**. Esta función abre un panel oculto pero muy poderoso conocido como las **Herramientas para desarrolladores (DevTools)**. Estas herramientas están pensadas originalmente para **desarrolladores web**, pero también son útiles para estudiantes, diseñadores y cualquier persona curiosa. Las DevTools existen desde hace más de una década y son parte fundamental del trabajo de desarrollo web moderno. En lugar de adivinar cómo funciona una página, puedes **ver su código en tiempo real**, **modificarlo** y **probar nuevas ideas** sin necesidad de cambiar archivos reales.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## ¿Qué puedes hacer con "Inspeccionar"?
 
-### What you'll need
+Algunas de las cosas que puedes lograr con esta herramienta incluyen:
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- Visualizar y editar el **HTML y CSS** de cualquier página.
+- Observar cómo se comporta la página en diferentes tamaños de pantalla (modo responsive).
+- Ver el **rendimiento**, la **carga de recursos** (como imágenes y scripts).
+- Detectar **errores en JavaScript** desde la pestaña **Consola**.
+- Probar tus propios fragmentos de código en tiempo real.
 
-## Generate a new site
+## ¿Cómo abrir la herramienta?
 
-Generate a new Docusaurus site using the **classic template**.
+Hay dos formas rápidas de acceder:
 
-The classic template will automatically be added to your project after you run the command:
+1. Clic derecho en cualquier parte de una página web → Inspeccionar.
+2. O presiona `Ctrl + Shift + I` (Windows) / `Cmd + Option + I` (Mac).
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## Pestañas principales de DevTools
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+Al abrir **Inspeccionar**, verás un panel con varias pestañas en la parte superior:
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+| Pestaña       | Función principal |
+|--------------|-------------------|
+| **Elementos** | Ver y editar HTML/CSS |
+| **Consola** | Mostrar errores y ejecutar JavaScript |
+| **Fuentes** | Ver archivos JS/CSS cargados |
+| **Red** | Analizar recursos cargados (imágenes, scripts) |
+| **Rendimiento** | Medir velocidad de carga |
+| **Memoria** | Analizar uso de memoria |
+| **Aplicación** | Inspeccionar almacenamiento local |
+| **Lighthouse** | Auditorías de SEO/accesibilidad |
+| **Grabadora** | Grabar interacciones de usuario |
