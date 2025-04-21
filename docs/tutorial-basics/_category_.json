@@ -1,8 +1,10 @@
 {
-  "label": "Tutorial - Basics",
+  "label": "DevTools",
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
-  }
+    "description": "Guía completa de las Herramientas para Desarrolladores",
+    "slug": "/devtools"
+  },
+  "collapsed": false
 }
