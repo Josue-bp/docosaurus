@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Fuentes en DevTools
+# 🗂️Fuentes en DevTools
 
 La pestaña **"Fuentes"** de **DevTools** es una herramienta potente que permite inspeccionar los archivos que componen una página web, como **JavaScript** y **CSS**. Esta sección es especialmente útil para desarrolladores que desean verificar y depurar el código de la página, ver qué recursos se están cargando y cómo se cargan, o para realizar modificaciones en tiempo real.
 

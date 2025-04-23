@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Pestaña Red (Network)
+# 🌐Pestaña Red (Network)
 
 La pestaña **Red** (o **Network**) de DevTools te permite ver en tiempo real **todas las solicitudes** que hace una página web: archivos que se cargan, peticiones al servidor, imágenes, scripts, fuentes, y más. Es fundamental para depurar problemas de carga y rendimiento.
 

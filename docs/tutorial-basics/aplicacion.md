@@ -2,7 +2,7 @@
 sidebar_position: 7
 ---
 
-# Pestaña Aplicación (Application)
+# 🗃️Pestaña Aplicación (Application)
 
 La pestaña **Aplicación** en DevTools es esencial para inspeccionar y depurar **funcionalidades web avanzadas** como almacenamiento local, cachés, cookies, y tecnologías modernas como **PWA** (Progressive Web Apps).
 

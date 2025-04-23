@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Pestaña Rendimiento (Performance)
+# 🚀Pestaña Rendimiento (Performance)
 
 La pestaña **Rendimiento** te permite analizar cómo se comporta tu sitio web en términos de **tiempo de carga, interactividad, fluidez visual y uso de recursos**. Es ideal para optimizar la experiencia de usuario.
 

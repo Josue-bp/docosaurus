@@ -10,21 +10,21 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Senati',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: '🧠 Guía DevTools Hub',
+  tagline: 'Potencia tu código, domina el navegador, evoluciona como desarrollador',
+  favicon:'https://img.icons8.com/fluency/96/document.png',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://Josue-bp.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/docosaurus',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-
+  organizationName: 'Josue-bp', // Usually your GitHub org/user name.
+  projectName: 'docosaurus', // Usually your repo name.
+  deploymentBranch:'gh-pages',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -71,31 +71,31 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
-      navbar: {
-        title: 'My Site',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
-        items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
+  /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+  ({
+    image: 'https://cdn-icons-png.flaticon.com/512/1055/1055687.png', // Imagen social estilo moderno/dev
+    navbar: {
+      title: 'Usuario',
+      logo: {
+        alt: 'Logo de Mi Página',
+        src: 'https://img.icons8.com/color/96/developer.png',
       },
+      items: [
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'Guía',
+        },
+        { to: '/blog', label: 'Blog', position: 'left' },
+        {
+          href: 'https://github.com',
+          label: 'GitHub',
+          position: 'right',
+        },
+      ],
+    },
+
       footer: {
         style: 'dark',
         links: [

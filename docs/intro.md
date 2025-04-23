@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Introducción: ¿Qué es "Inspeccionar"?
+# 🧩Introducción: ¿Qué es "Inspeccionar"?
 
 Vamos a descubrir cómo usar la herramienta **"Inspeccionar" del navegador** (DevTools) en menos de 5 minutos.
 

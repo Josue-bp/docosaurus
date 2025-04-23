@@ -23,20 +23,6 @@
   color: var(--ifm-font-color-base);
 }
 
-/* Botones */
-.buttons {
-  margin-top: 2rem;
-}
-
-.button {
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s ease-in-out;
-}
-
-.button:hover {
-  transform: scale(1.05);
-}
 
 /* Contenedor de imágenes */
 .imagesWrapper {
@@ -77,4 +63,62 @@
 html[data-theme='dark'] {
   --hero-bg-color: #81af5a; /* Naranja (fondo del HeroBanner) */
   --hero-image-bg: #1f1f1f; /* Gris oscuro (fondo de los iconos) */
+}
+.featureSection {
+  padding: 4rem 2rem;
+  background-color: var(--ifm-background-color);
+  text-align: center;
+}
+
+.featureContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.featureItem {
+  max-width: 280px;
+  padding: 2rem;
+  background-color: var(--hero-image-bg);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.featureItem:hover {
+  transform: translateY(-10px);
+}
+
+.featureItem img {
+  width: 80px;
+  margin-bottom: 1rem;
+}
+
+.featureItem h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--ifm-heading-color);
+}
+
+.featureItem p {
+  font-size: 1rem;
+  opacity: 0.8;
+  color: var(--ifm-font-color-base);
+}
+
+.robotGif {
+  width: 800px; /* Tamaño reducido */
+  height: auto;
+  border-radius: 16px;
+  background-color: var(--robot-gif-bg);
+  padding: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  display: block;
+  margin: 0 auto; /* Centrado horizontal */
+}
+
+.robotGif:hover {
+  transform: scale(1.05);
 }

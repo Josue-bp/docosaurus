@@ -15,10 +15,12 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/docs/intro">
-            Ver Tutorial - 5min ⏱️
-          </Link>
-        </div>
+        <img
+    src="https://i.pinimg.com/originals/de/30/21/de3021c5618a58faa9f39ba3df133f24.gif"
+    alt="computadora"
+    className={styles.robotGif}
+  />
+</div>
 
         {/* Iconos tipo gamer/dev con URL */}
         <div className={styles.imagesWrapper}>
@@ -49,10 +51,29 @@ export default function Home() {
     <Layout
       title={`Bienvenido a ${siteConfig.title}`}
       description="Plataforma para desarrolladores principiantes con estilo gamer/pro.">
-      <HomepageHeader />
-      <main>
-        {/* Puedes dejar esto o poner otros componentes */}
-      </main>
+<HomepageHeader />
+<main>
+  <section className={styles.featureSection}>
+    <div className={styles.featureContainer}>
+      <div className={styles.featureItem}>
+      <img src="https://img.icons8.com/fluency/96/idea.png" alt="Idea icon" />
+      <h3>Fácil de Usar</h3>
+        <p>Diseñado para desarrolladores principiantes y gamers con estilo pro.</p>
+      </div>
+      <div className={styles.featureItem}>
+        <img src="https://img.icons8.com/fluency/96/source-code.png" alt="Code icon" />
+        <h3>Código Limpio</h3>
+        <p>Estructura clara, mantenible y adaptable a cualquier proyecto.</p>
+      </div>
+      <div className={styles.featureItem}>
+        <img src="https://img.icons8.com/fluency/96/cloud.png" alt="Cloud icon" />
+        <h3>Deploy Sencillo</h3>
+        <p>Compatible con GitHub Pages, Vercel y Netlify en pocos clics.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
     </Layout>
   );
 }

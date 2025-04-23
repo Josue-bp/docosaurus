@@ -1,6 +1,6 @@
 ---
 id: consola
-title: Consola
+title: 🧑‍💻Consola
 sidebar_position: 2
 ---
 

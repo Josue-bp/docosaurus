@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Pestaña Memoria (Memory)
+# 🧠Pestaña Memoria (Memory)
 
 La pestaña **Memoria** te permite detectar **problemas de consumo de memoria**, como **fugas (memory leaks)**, crecimiento inesperado o uso excesivo de memoria por parte de tu aplicación web.
 
