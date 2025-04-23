@@ -1,0 +1,29 @@
+{
+  "id": "tutorial-basics/consola",
+  "title": "🧑‍💻Consola",
+  "description": "La pestaña Consola (Console) es como un panel de comunicación entre tú y la página web. Aquí puedes ver mensajes, errores, advertencias y también escribir código JavaScript en tiempo real.",
+  "source": "@site/docs/tutorial-basics/consola.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/consola",
+  "permalink": "/docusaurus/docs/tutorial-basics/consola",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/consola.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "consola",
+    "title": "🧑‍💻Consola",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "🧱Elementos",
+    "permalink": "/docusaurus/docs/tutorial-basics/elementos"
+  },
+  "next": {
+    "title": "🗂️Fuentes en DevTools",
+    "permalink": "/docusaurus/docs/tutorial-basics/fuentes"
+  }
+}

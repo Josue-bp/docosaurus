@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-basics/aplicacion",
+  "title": "🗃️Pestaña Aplicación (Application)",
+  "description": "La pestaña Aplicación en DevTools es esencial para inspeccionar y depurar funcionalidades web avanzadas como almacenamiento local, cachés, cookies, y tecnologías modernas como PWA (Progressive Web Apps).",
+  "source": "@site/docs/tutorial-basics/aplicacion.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/aplicacion",
+  "permalink": "/docusaurus/docs/tutorial-basics/aplicacion",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/aplicacion.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "🧠Pestaña Memoria (Memory)",
+    "permalink": "/docusaurus/docs/tutorial-basics/memoria"
+  },
+  "next": {
+    "title": "🌟 Lighthouse",
+    "permalink": "/docusaurus/docs/tutorial-basics/lighthouse"
+  }
+}

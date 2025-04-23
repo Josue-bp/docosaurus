@@ -1,0 +1,24 @@
+{
+  "id": "consola",
+  "title": "Consola del Navegador",
+  "description": "La consola del navegador es una herramienta que forma parte de las DevTools (herramientas de desarrollo) disponibles en la mayoría de navegadores modernos como Google Chrome o Firefox.",
+  "source": "@site/docs/consola.md",
+  "sourceDirName": ".",
+  "slug": "/consola",
+  "permalink": "/docs/consola",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/consola.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "consola",
+    "title": "Consola del Navegador",
+    "sidebar_label": "¿Qué es la Consola?"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/docs/tutorial-extras/translate-your-site"
+  }
+}

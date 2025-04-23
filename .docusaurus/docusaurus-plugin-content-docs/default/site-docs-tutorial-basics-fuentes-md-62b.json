@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-basics/fuentes",
+  "title": "🗂️Fuentes en DevTools",
+  "description": "La pestaña \"Fuentes\" de DevTools es una herramienta potente que permite inspeccionar los archivos que componen una página web, como JavaScript y CSS. Esta sección es especialmente útil para desarrolladores que desean verificar y depurar el código de la página, ver qué recursos se están cargando y cómo se cargan, o para realizar modificaciones en tiempo real.",
+  "source": "@site/docs/tutorial-basics/fuentes.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/fuentes",
+  "permalink": "/docusaurus/docs/tutorial-basics/fuentes",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/fuentes.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "🧑‍💻Consola",
+    "permalink": "/docusaurus/docs/tutorial-basics/consola"
+  },
+  "next": {
+    "title": "🌐Pestaña Red (Network)",
+    "permalink": "/docusaurus/docs/tutorial-basics/red"
+  }
+}

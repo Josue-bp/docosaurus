@@ -1,0 +1,23 @@
+{
+  "id": "tutorial-basics/grabadora",
+  "title": "🎥 Grabadora (Recorder)",
+  "description": "La pestaña Grabadora de Chrome DevTools permite grabar, editar y reproducir interacciones de usuario en una página web. Es ideal para pruebas, análisis de rendimiento y reproducción de errores.",
+  "source": "@site/docs/tutorial-basics/grabadora.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/grabadora",
+  "permalink": "/docusaurus/docs/tutorial-basics/grabadora",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/grabadora.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "🌟 Lighthouse",
+    "permalink": "/docusaurus/docs/tutorial-basics/lighthouse"
+  }
+}

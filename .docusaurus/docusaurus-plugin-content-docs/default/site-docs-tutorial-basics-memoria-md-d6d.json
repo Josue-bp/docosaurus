@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-basics/memoria",
+  "title": "🧠Pestaña Memoria (Memory)",
+  "description": "La pestaña Memoria te permite detectar problemas de consumo de memoria, como fugas (memory leaks), crecimiento inesperado o uso excesivo de memoria por parte de tu aplicación web.",
+  "source": "@site/docs/tutorial-basics/memoria.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/memoria",
+  "permalink": "/docusaurus/docs/tutorial-basics/memoria",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/memoria.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "🚀Pestaña Rendimiento (Performance)",
+    "permalink": "/docusaurus/docs/tutorial-basics/rendimiento"
+  },
+  "next": {
+    "title": "🗃️Pestaña Aplicación (Application)",
+    "permalink": "/docusaurus/docs/tutorial-basics/aplicacion"
+  }
+}

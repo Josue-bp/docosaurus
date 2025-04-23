@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-basics/Red",
+  "title": "Pestaña Red (Network)",
+  "description": "La pestaña Red (o Network) de DevTools te permite ver en tiempo real todas las solicitudes que hace una página web: archivos que se cargan, peticiones al servidor, imágenes, scripts, fuentes, y más. Es fundamental para depurar problemas de carga y rendimiento.",
+  "source": "@site/docs/tutorial-basics/Red.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/Red",
+  "permalink": "/docs/tutorial-basics/Red",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/Red.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Fuentes en DevTools",
+    "permalink": "/docs/tutorial-basics/fuentes"
+  },
+  "next": {
+    "title": "Pestaña Rendimiento (Performance)",
+    "permalink": "/docs/tutorial-basics/deploy-your-site"
+  }
+}

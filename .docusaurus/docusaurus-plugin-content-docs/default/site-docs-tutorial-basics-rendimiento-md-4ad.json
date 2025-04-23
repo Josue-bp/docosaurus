@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-basics/rendimiento",
+  "title": "🚀Pestaña Rendimiento (Performance)",
+  "description": "La pestaña Rendimiento te permite analizar cómo se comporta tu sitio web en términos de tiempo de carga, interactividad, fluidez visual y uso de recursos. Es ideal para optimizar la experiencia de usuario.",
+  "source": "@site/docs/tutorial-basics/rendimiento.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/rendimiento",
+  "permalink": "/docusaurus/docs/tutorial-basics/rendimiento",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/rendimiento.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "🌐Pestaña Red (Network)",
+    "permalink": "/docusaurus/docs/tutorial-basics/red"
+  },
+  "next": {
+    "title": "🧠Pestaña Memoria (Memory)",
+    "permalink": "/docusaurus/docs/tutorial-basics/memoria"
+  }
+}

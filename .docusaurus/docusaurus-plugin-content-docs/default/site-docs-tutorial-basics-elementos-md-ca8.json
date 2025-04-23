@@ -1,0 +1,28 @@
+{
+  "id": "tutorial-basics/Elementos",
+  "title": "Elementos (HTML y CSS)",
+  "description": "La pestaña Elementos en DevTools es donde puedes visualizar y modificar el HTML y el CSS de una página web en tiempo real. Esta herramienta es especialmente útil para:",
+  "source": "@site/docs/tutorial-basics/Elementos.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/Elementos",
+  "permalink": "/docs/tutorial-basics/Elementos",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/Elementos.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Elementos (HTML y CSS)"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DevTools",
+    "permalink": "/docs/devtools"
+  },
+  "next": {
+    "title": "Create a Document",
+    "permalink": "/docs/tutorial-basics/create-a-document"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docusaurus/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docusaurus/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/docusaurus/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/aplicacion",
+              "path": "/docusaurus/docs/tutorial-basics/aplicacion",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/consola",
+              "path": "/docusaurus/docs/tutorial-basics/consola",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/elementos",
+              "path": "/docusaurus/docs/tutorial-basics/elementos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/fuentes",
+              "path": "/docusaurus/docs/tutorial-basics/fuentes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/grabadora",
+              "path": "/docusaurus/docs/tutorial-basics/grabadora",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/lighthouse",
+              "path": "/docusaurus/docs/tutorial-basics/lighthouse",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/memoria",
+              "path": "/docusaurus/docs/tutorial-basics/memoria",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/red",
+              "path": "/docusaurus/docs/tutorial-basics/red",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/rendimiento",
+              "path": "/docusaurus/docs/tutorial-basics/rendimiento",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/devtools",
+              "path": "/docusaurus/docs/devtools",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docusaurus/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

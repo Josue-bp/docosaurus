@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-basics/lighthouse",
+  "title": "🌟 Lighthouse",
+  "description": "Lighthouse es una herramienta automatizada integrada en DevTools que evalúa el rendimiento y calidad de una página web. Ayuda a desarrolladores a optimizar sus sitios para mejorar la experiencia del usuario, accesibilidad, rendimiento, y más.",
+  "source": "@site/docs/tutorial-basics/lighthouse.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/lighthouse",
+  "permalink": "/docusaurus/docs/tutorial-basics/lighthouse",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/lighthouse.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "🗃️Pestaña Aplicación (Application)",
+    "permalink": "/docusaurus/docs/tutorial-basics/aplicacion"
+  },
+  "next": {
+    "title": "🎥 Grabadora (Recorder)",
+    "permalink": "/docusaurus/docs/tutorial-basics/grabadora"
+  }
+}
