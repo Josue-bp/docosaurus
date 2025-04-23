@@ -1,23 +1,80 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
+/* Estilos generales del HeroBanner */
 .heroBanner {
-  padding: 4rem 0;
+  padding: 4rem 2rem;
   text-align: center;
-  position: relative;
-  overflow: hidden;
+  background-color: var(--hero-bg-color) !important; /* Fondo adaptativo (celeste/naranja) */
+  color: var(--ifm-font-color-base);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+/* Título principal */
+.hero__title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: var(--ifm-heading-color);
 }
 
+/* Subtítulo */
+.hero__subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+  color: var(--ifm-font-color-base);
+}
+
+/* Botones */
 .buttons {
+  margin-top: 2rem;
+}
+
+.button {
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+/* Contenedor de imágenes */
+.imagesWrapper {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+/* Estilos de los iconos */
+.heroImage {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  border-radius: 12px;
+  background-color: var(--hero-image-bg) !important; /* Fondo adaptativo (blanco/gris oscuro) */
+  padding: 1rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.heroImage:hover {
+  transform: scale(1.1);
+}
+
+/* Definición de colores para modo claro */
+:root {
+  --hero-bg-color: #52e7b8; /* Celeste claro (fondo del HeroBanner) */
+  --hero-image-bg: #ffffff; /* Blanco (fondo de los iconos) */
+}
+
+/* Definición de colores para modo oscuro */
+html[data-theme='dark'] {
+  --hero-bg-color: #81af5a; /* Naranja (fondo del HeroBanner) */
+  --hero-image-bg: #1f1f1f; /* Gris oscuro (fondo de los iconos) */
 }
