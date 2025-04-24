@@ -1,41 +1,31 @@
-# Website
+# Guía visual de la pestaña Elementos en DevTools
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Este repositorio contiene una guía que hice para explicar cómo funciona la pestaña Elementos del panel de DevTools en los navegadores. Incluye ejemplos de código, trucos útiles y una imagen ilustrativa que diseñé para que todo se entienda mejor. Está pensada para estudiantes, curiosos o cualquiera que quiera entender cómo modificar HTML y CSS desde el navegador sin tocar el archivo original.
 
-### Installation
 
-```
-$ yarn
-```
+### Cómo usar el proyecto
 
-### Local Development
+1) Clona este repositorio:
+   git clone https://github.com/tu-usuario/tu-repo.git
 
-```
-$ yarn start
-```
+2) Instala las dependencias:
+   npm install
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+3) Ejecutá el proyecto:
+   npm run start
 
-### Build
+4) Abre http://localhost:3000 en tu navegador para ver la guía.
 
-```
-$ yarn build
-```
+# ✨ Características (o “Qué incluye”)
+Una lista de lo que trae el proyecto:
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+✅ Guía paso a paso sobre cómo usar la pestaña Elementos en DevTools
 
-### Deployment
+✅ Ejemplos reales de código HTML y CSS
 
-Using SSH:
+✅ Trucos prácticos para desarrolladores principiantes
 
-```
-$ USE_SSH=true yarn deploy
-```
+✅ Imagen ilustrativa creada desde cero
 
-Not using SSH:
+✅ Adaptado para modo claro y oscuro
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
